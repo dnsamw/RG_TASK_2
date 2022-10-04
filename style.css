@@ -52,6 +52,9 @@ section{
     background: var(--primary-grd); */
 }
 
+.sec-col{
+    margin: 0 2.5% 0 2.5%;
+}
 .horiz-wrapper #col-1{
     min-height: 100vh;
     display: flex;
@@ -69,23 +72,26 @@ section{
 .horiz-wrapper #col-2 h1{
     font-family: "DayDream";
     color: #fff;
-    font-size: 5.2rem;
+    font-size: 7.2rem;
     padding: 10px;
 }
+
 .horiz-wrapper #col-2 p{
     color: #fff;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     padding: 10px 50px 10px 10px;
 }
 
 .horiz-wrapper #col-2 .social{
+    display: flex;
+    justify-content: space-around;
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-align: center;
+    margin: 0 25%;
 }
 .horiz-wrapper #col-2 .social i{
-    padding: 0 25px;
-    padding-bottom: 20px;
+    margin: 50px 30px;
 }
 
 #coverimg{
@@ -94,6 +100,15 @@ section{
     bottom: 0;
     left: 0;
     margin-right: 15px;
+}
+
+#col-1{
+    margin-left: 0;
+}
+@media (max-width:930px){
+    .horiz-wrapper #col-2 h1{
+        font-size: 5rem;
+    }
 }
 
 @media (max-width:820px){
@@ -125,8 +140,17 @@ section{
         padding-top: 15px;
         text-align: center;
     }
+    .horiz-wrapper #col-2 h1{
+        font-size: 4rem;
+    }
     .horiz-wrapper #col-2 p{
+        font-size: 1rem;
         padding: 0 25px;
         margin-bottom: 30px;
+    }
+
+    .horiz-wrapper #col-2 .social i{
+        font-size: 2rem;
+        margin: 25px 15px;
     }
 }
