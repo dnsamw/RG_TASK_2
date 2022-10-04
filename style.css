@@ -10,7 +10,7 @@
 
 /* COLOR VARIABLES */
 :root {
-    --primary:222324;
+    --primary:#222324;
     --primary-grd: linear-gradient(167deg, rgba(39,36,50,1) 0%, rgba(13,12,17,1) 78%, rgba(18,17,23,1) 100%);
 }
 
