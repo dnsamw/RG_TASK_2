@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+
 /* COLOR VARIABLES */
 :root {
     --primary:rgb(39,36,50);
@@ -24,7 +28,7 @@ body::-webkit-scrollbar {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'BuenosAires',sans-serif;
+    font-family: 'Poppins',sans-serif;
 }
 
 section{
@@ -51,6 +55,7 @@ section{
 }
 
 .horiz-wrapper #col-2 h1{
+    font-family: "Aclonica";
     color: #fff;
     font-size: 3.2rem;
     padding: 10px;
