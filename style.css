@@ -46,6 +46,19 @@ body {
 section{
     min-height: 100vh;
 }
+
+a{
+    text-decoration: none;
+    transition: 0.5s;
+}
+a, a:visited , a:active {
+    color: #f8f4e5;
+}
+
+a:hover {
+    color: #D37824;
+}
+
 .horiz-wrapper{
     display: flex;
     /* background: var(--primary);
@@ -76,6 +89,13 @@ section{
     padding: 10px;
 }
 
+.horiz-wrapper #col-2 h2{
+    max-width: 70ch;
+    color: #fff;
+    font-size: 1.9rem;
+    padding: 10px 50px 10px 10px;
+}
+
 .horiz-wrapper #col-2 p{
     max-width: 70ch;
     color: #fff;
@@ -102,6 +122,16 @@ section{
     left: 0;
     margin-right: 15px;
 }
+
+#coverimg {
+    opacity:1;
+    transition: opacity 1s; 
+}
+
+#coverimg.fadeOut {
+    opacity:0;
+}
+
 
 #col-1{
     margin-left: 0;
